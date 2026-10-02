@@ -210,6 +210,31 @@ text {
     font-size: 18.95px;
 }
 
+.btn-lermais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 28px;
+    width: 260px;
+    height: 54px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #007CE0;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.btn-lermais:hover {
+    background-color: #007CE0;
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 .box-bekind {
     margin-top: 50px;
     display: flex;

@@ -177,6 +177,10 @@ section:nth-child(3) {
     height: 200px;
 }
 
+.text-center .destaque {
+    color: #007CE0;
+}
+
 .container {
     position: relative;
     margin-top: -60px;

@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+    height: auto;
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: scroll hidden;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.lermais {
+    color: #7E7E7E;
+}
+
+.navbar {
+    margin-top: 0.5%;
+    justify-content: center;
+    display: grid;
+    grid-template-areas: "logo home sobrenos blog doacoes voluntario eventos loja doe";
+    grid-template-columns: 220px 150px 150px 150px 150px 150px 150px 150px 220px;
+    grid-template-rows: 80px;
+    grid-column-gap: 5px;
+}
+
+.navbar .active::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: blue;
+    margin-top: 5px;
+}
+
+.logo {
+    grid-area: logo;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.home {
+    grid-area: home;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.home a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.sobrenos {
+    grid-area: sobrenos;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sobrenos a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.blog {
+    grid-area: blog;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.blog a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.doacoes {
+    grid-area: doacoes;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.doacoes a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.voluntario {
+    grid-area: voluntario;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.voluntario a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.eventos {
+    grid-area: eventos;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.eventos a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.loja {
+    grid-area: loja;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.loja a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.doe {
+    grid-area: doe;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.doe button {
+    border-style: solid;
+    border-color: #007CE0;
+    border-radius: 16px;
+    background-color: #007CE0;
+    width: 135px;
+    height: 45px;
+    font-size: 16px;
+    color: white;
+}
+
+.doe a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.post {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 863px;
+    width: 1216px;
+}
+
+.perfil {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.perfil text {
+    margin-left: 33px;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+div.descricao {
+    margin-top: 2px;
+}
+
+.vermais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: none;
+    border: #252525 solid 2px;
+    font-size: 21px;
+    width: 228px;
+    height: 56px;
+    border-radius: 10px;
+    margin-top: 120px;
+    color: #252525;
+}
+
+div.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.rodape .logo {
+    margin-top: 65px;
+    width: 180px;
+    height: 47px;
+}
+
+div.rodape h5 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.rodape hr {
+    margin-top: 100px;
+    width: 908px;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.redes-sociais a {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.redes-sociais a:hover {
+    background-color: #007CE0;
+}
+
+.redes-sociais a:hover img {
+    filter: invert(100%);
+}
